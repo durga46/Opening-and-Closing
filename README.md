@@ -58,6 +58,17 @@ plt.imshow(image2,'magma')
 plt.axis('off')
 
 ```
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 ## Output:
 ### Display the input Image
 
