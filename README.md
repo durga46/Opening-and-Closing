@@ -18,6 +18,12 @@ Then create the structuring element for opening and closing.
 Apply erosion and dilation using cv2.MORPH_OPEN and cv2.MORPH_CLOSE.
 ### Step5:
 Plot the images using plt.imshow.
+
+<br>
+<br>
+<br>
+
+
 ## Program:
 ```python
 Developed by : Durga Devi P
