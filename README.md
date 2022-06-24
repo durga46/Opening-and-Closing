@@ -1,5 +1,6 @@
-# Opening-and-Closing
-
+## EX.NO : 11
+## Date : 03.05.2022
+# <p align="center"> Opening and Closing</p>
 ## Aim
 To implement Opening and Closing using Python and OpenCV.
 
@@ -9,26 +10,14 @@ To implement Opening and Closing using Python and OpenCV.
 ## Algorithm:
 ### Step1:
 Import the necessary packages.
-<br>
-
-
 ### Step2:
 Create the text image using cv2.putText.
-<br>
-
 ### Step3:
 Then create the structuring element for opening and closing.
-<br>
-
 ### Step4:
 Apply erosion and dilation using cv2.MORPH_OPEN and cv2.MORPH_CLOSE.
-<br>
-
 ### Step5:
 Plot the images using plt.imshow.
-<br>
-
- 
 ## Program:
 ```python
 Developed by : Durga Devi P
@@ -37,11 +26,9 @@ Registeration Number:212220230015
 
 ``` Python
 # Import the necessary packages
-
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
-
 
 # Create the Text using cv2.putText
 
@@ -52,12 +39,9 @@ plt.title("Original Image")
 plt.imshow(text_image,'magma')
 plt.axis('off')
 
-
 # Create the structuring element
 
 kernel = cv2.getStructuringElement(cv2.MORPH_CROSS,(9,9))
-
-
 
 # Use Opening operation
 
@@ -73,43 +57,18 @@ plt.title("Closing")
 plt.imshow(image2,'magma')
 plt.axis('off')
 
-
-
 ```
 ## Output:
-
 ### Display the input Image
 
 ![Screenshot_709](https://user-images.githubusercontent.com/75235704/171369780-00e87fca-8ba1-4081-9a1e-49d525534efa.png)
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
 ### Display the result of Opening
 ![Screenshot_710](https://user-images.githubusercontent.com/75235704/171369800-f311d746-376c-4fe4-b37b-0e89cbdaf506.png)
-
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
 ### Display the result of Closing
 
 ![Screenshot_711](https://user-images.githubusercontent.com/75235704/171369833-766adf45-a6f7-439d-b353-2663324130ad.png)
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
 ## Result
 Thus the Opening and Closing operation is used in the image using python and OpenCV.
